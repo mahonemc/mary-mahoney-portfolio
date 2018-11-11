@@ -1,0 +1,132 @@
+.body {
+    padding-top: 20px;
+    background-color: #deebf7;
+	font-family: 'Poppins', sans-serif;
+	text-align: center; 
+	
+}
+
+.img {
+	display: block;
+	border:grey;
+	border-width: thin;
+  	width: 300px;
+  	height: 200px;
+	padding-bottom: 20px;
+	}
+
+
+.sub-heading {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40;
+	text-align: center; 
+}
+
+.display-10 {
+	font-family: 'Karla', sans-serif, bold;
+	text-align: center; 
+}
+
+.bg-custom-darkblue {
+    background-color: #045a8d;
+}
+.navbar {
+    height: 25px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	 
+}
+
+.customMenuButton1 {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+	vertical-align: middle;
+	padding: 10px;
+	font-family: 'Karla', sans-serif;
+}
+
+.customMenuButton1:hover {
+    color: #969696;
+	text-decoration: none;
+}
+
+.customMenuButton1:active {
+    transform: translateY(4px);
+}
+
+.customMenuButton1:focus {
+    outline: none;
+}
+
+.bio {
+	background-color: #deebf7;
+	margin-left:15%;
+	margin-right:15%;
+	
+}
+
+.link{
+	font-family:'Karla',sans-serif;
+	font-size: 20;
+}
+
+.link:hover {
+    color: #969696;
+	text-decoration: none;
+}
+
+.link:active {
+    transform: translateY(4px);
+}
+
+.link:focus {
+    outline: none;
+}
+
+.port-contain {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+}
+
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.port-contain:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+	font-family:'Poppins', sans-serif;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.footer {
+    height: 25px;
+	background-color: inherit;
+	text-align:right;
+}
