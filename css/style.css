@@ -1,5 +1,5 @@
 .body {
-    padding-top: 20px;
+    padding-top: 50px;
     background-color: #deebf7;
 	font-family: 'Poppins', sans-serif;
 	text-align: center; 
@@ -13,8 +13,7 @@
   	width: 300px;
   	height: 200px;
 	padding-bottom: 20px;
-	}
-
+}
 
 .sub-heading {
 	font-family: 'Josefin Sans', sans-serif;
@@ -30,12 +29,23 @@
 .bg-custom-darkblue {
     background-color: #045a8d;
 }
-.navbar {
-    height: 25px;
-    -webkit-box-shadow: none;
+
+.navbar{
+	height:auto;
+	-webkit-box-shadow: none;
     box-shadow: none;
-	 
 }
+
+.dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .dropdown-menu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
 
 .customMenuButton1 {
     background-color: transparent;
@@ -90,7 +100,6 @@
   width: 100%;
   max-width: 300px;
 }
-
 
 
 .overlay {

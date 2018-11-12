@@ -7,37 +7,41 @@
 
 		<!--put your external stylesheet links here-->
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Karla:400,700|Pattaya|Poppins|Raleway" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"> 
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 		<!--[if IE<9]>
 			<link rel="stylesheet" href="css/style.ie.css">
 		<![endif]-->
 	</head>
 
 <body class="body">
-		<!--Header-->
-		    <nav class="navbar bg-custom-darkblue navbar-dark navbar-expand-sm fixed-top" id="header1">
-        <div class="container-fluid p-1">
-           <div class="navbar-nav ml-auto mr-0">
-                <a href="https://mahonemc.github.io/mary-mahoney-portfolio/index.html" role=button class="customMenuButton1" style=float:right >
-					About Mary
-					</a>
-                <a href="https://mahonemc.github.io/mary-mahoney-portfolio/portfolio.html" role=button class="customMenuButton1" style=float:right >
-                   Portfolio
-			   </a>
-			    <a href="#resume" role=button class="customMenuButton1" style=float:right >
-                  Résumé
-			   </a>
-			</div>
-				</div>
-    </nav>
+		<!--Navbar-->
+				<nav class="navbar bg-custom-darkblue navbar-dark navbar-expand-sm fixed-top">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false" aria-controls="navbar-collapse-1" aria-label="Toggle navigation"> 
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			  <div class="collapse navbar-collapse" id="navbar-collapse-1">
+				   <ul class="navbar-nav mr-auto">
+					   <li class="nav-item active">
+					   <a href="https://mahonemc.github.io/mary-mahoney-portfolio/index.html" class="customMenuButton1" style="float:left">
+					About Mary</a></li>
+					   <li class="nav-item"><a href="https://mahonemc.github.io/mary-mahoney-portfolio/portfolio.html" class="customMenuButton1" style="float:left">
+                    Portfolio</a></li>	
+					    <li class="nav-item"><a href="#resume" class="customMenuButton1" style="float:left">
+                  Résumé</a></li>
+				  </ul>
+			   </div><!-- /.navbar-collapse -->
+		</nav>
+	
+	
 		<!--Name-->
 		<div class="jumbotron jumbotron-fluid">
 			<br>
 			<h1 class="display-10">Mary Mahoney</h1>
 			<h5 class = "sub-heading">Geographic Information Systems Professional<br><br></h5>
 		</div>
+	
 	<!--Resume-->
 	<div id="resume" class="container-fluid" style=background-color:#deebf7>
 		<h3 class="sub-heading"><b>Résumé Highlights</b></h3>
@@ -96,17 +100,12 @@
 	
 	<br><br>
 		
-				
-
-	
-	
-	
-					<!--put your external script links here-->
+	<!--put your external script links here-->
 		<script type="text/javascript" src="js/main.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
 		
-	
 	</body>
 	<footer class="footer"><br> Created by Mary Mahoney, 2018</footer>
 </html>
